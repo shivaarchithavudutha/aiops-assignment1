@@ -1,0 +1,5 @@
+[core]
+    remote = sshremote
+['remote "sshremote"']
+    url = ssh://localhost/tmp/dvc-storage
+    user = shiva
