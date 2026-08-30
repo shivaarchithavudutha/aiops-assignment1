@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/shiva/aiops-assignment1/mlruns/1/models/m-6f52e80824aa444f96198a7268a31d68/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.21
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.15.2
+model_id: m-6f52e80824aa444f96198a7268a31d68
+model_size_bytes: 1636201
+model_uuid: m-6f52e80824aa444f96198a7268a31d68
+prompts: null
+run_id: f2d704a58ecd4c46a0ca582dfafe236e
+utc_time_created: '2026-08-30 09:01:30.022148'
